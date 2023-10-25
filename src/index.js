@@ -30,6 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h2>Carbon Charts Color Palette Example</h2>
         <Select
           value={this.state.selectedColor}
           onChange={this.handleColorChange}
