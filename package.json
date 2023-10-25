@@ -1,0 +1,19 @@
+{
+  "name": "carbon-charts-react-example",
+  "description": "Carbon Charts React Example",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@carbon/charts-react": "1.13.6",
+    "d3": "^7.8.5",
+    "d3-cloud": "^1.2.7",
+    "d3-sankey": "^0.12.3",
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 ^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 ^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-select": "^5.7.7"
+  }
+}
