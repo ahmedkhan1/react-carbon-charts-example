@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SimpleBarChart } from '@carbon/charts-react';
-import dataList from './data.js';
-import chartOptions from './options.js';
+import dataList from '../data.js';
+import chartOptions from '../options.js';
 import '@carbon/charts-react/styles.css';
 import Select from 'react-select';
 
