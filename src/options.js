@@ -5,6 +5,11 @@ export default {
       mapsTo: 'date',
       scaleType: 'time',
     },
+    color: {
+      pairing: {
+        option: 1,
+      },
+    },
     bottom: {
       mapsTo: 'value',
     },
