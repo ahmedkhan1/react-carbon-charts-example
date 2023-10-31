@@ -5,6 +5,10 @@ import chartOptions from '../options.js';
 import '@carbon/charts-react/styles.css';
 import Select from 'react-select';
 
+const optionList = [
+  { value: 1, label: 'Color 1' },
+  { value: 2, label: 'Color 2' },
+];
 
 export function Charts(){
     const [data, setData] = useState(dataList);
@@ -33,10 +37,7 @@ export function Charts(){
             <Select
                 value={selectedColor}
                 onChange={handleColorChange}
-                options={[
-                    { value: 1, label: 'Color 1' },
-                    { value: 2, label: 'Color 2' },
-                ]}
+                options={optionList}
             />
 
             <SimpleBarChart 
